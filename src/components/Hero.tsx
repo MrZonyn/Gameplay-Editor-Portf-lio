@@ -1,3 +1,5 @@
+import { Play } from "lucide-react";
+
 function Hero() {
   return (
     <section className="bg-black">
@@ -15,15 +17,15 @@ function Hero() {
           </p>
           <a
             href="#showreel"
-            className="inline-block rounded-md mt-8 transition-colors bg-green-700 px-6 py-3 text-white font-semibold hover:bg-green-600"
+            className="inline-block rounded-md mt-8 transition-colors bg-green-800 px-6 py-3 text-white font-semibold hover:bg-green-600"
           >
             WATCH SHOWREEL
           </a>
         </div>
 
         <div className="relative aspect-video rounded-lg border border-gray-800 bg-gray-900">
-          <button className="absolute inset-0 m-auto h-16 w-16 rounded-full bg-white text-black transition-colors hover:bg-gray-400">
-            ▶
+          <button className="absolute inset-0 m-auto h-8 w-8 rounded-full text-green-700 transition-colors hover:text-green-400">
+            <Play />
           </button>
         </div>
       </div>
